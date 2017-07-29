@@ -1,0 +1,154 @@
+body{
+  background: linear-gradient(rgb(127, 213, 244), rgb(10, 164, 219));
+}
+
+.top {
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 8vh;
+}
+
+#logo {
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: none;
+  color: rgba(255,255,255,0.9);
+  font-size: 2.5em;
+  transition: 0.5s;
+}
+
+#logo:hover{
+  color: white;
+  transition: 0.5s;
+}
+
+.city-name {
+  font-family: 'Quicksand', sans-serif;
+  color: rgba(255,255,255,0.9);
+  font-size: 1.5em;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.wrapper-main {
+  height: 87vh;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper-index {
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#info {
+  font-size: 20px;
+}
+
+#index-info {
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+  width: 100%;
+}
+.middle-page {
+  height: 20em;
+  width: 40em;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.8))
+}
+
+.middle-page p {
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+  width: 100%;
+}
+
+.input {
+  width: 30em;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  width: 20%;
+  height: 20em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Quicksand', sans-serif;
+  color: rgba(255,255,255,0.8);
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.6));
+  border-radius: 30px;
+  margin: 10px;
+  transition: .5s;
+}
+
+.item:hover{
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.8));
+  transition: .5s;
+}
+
+#city {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Quicksand', sans-serif;
+  color: rgba(255,255,255,0.8);
+}
+
+.city-image {
+  width: 10em;
+  height: auto;
+}
+
+.sweden-image {
+  height: 10em;
+  width: auto;
+}
+
+.back-button {
+  height: 5vh;
+  width: 7em;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0em 1em;
+}
+
+.back-button p {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.back-button:hover {
+  background: rgba(255, 255, 255, 0.6);
+  color: white;
+}
+
+.inner-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40em;
+}
