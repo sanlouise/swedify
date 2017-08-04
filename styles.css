@@ -76,6 +76,10 @@ body{
 
 .input {
   width: 30em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .row {
@@ -98,6 +102,7 @@ body{
   border-radius: 30px;
   margin: 10px;
   transition: .5s;
+  cursor: pointer;
 }
 
 .item:hover{
@@ -132,6 +137,7 @@ body{
   align-items: center;
   justify-content: center;
   margin: 0em 1em;
+  cursor: pointer;
 }
 
 .back-button p {
@@ -151,4 +157,19 @@ body{
   justify-content: center;
   align-items: center;
   height: 40em;
+}
+
+.check {
+  height: 5vh;
+  width: 10em;
+  background-color: rgb(251, 202, 21);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0em 1em;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  color: white;
+  cursor: pointer;
 }

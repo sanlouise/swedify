@@ -1,0 +1,23 @@
+{ "sentences": [
+  {
+    "id" : 1,
+    "hello" : "hej"
+  }
+  {
+    "id" : 2,
+    t"goodbye" : "hejdå"
+  }
+  {
+    "id" : 3,
+    "I am" : "jag är"
+  }
+  {
+    "id" : 4,
+    "I eat" : "jag äter"
+  }
+  {
+    "id" : 5,
+    "I walk" : "jag går"
+  }
+  ]
+}

@@ -1,7 +1,7 @@
-const stockholm = document.getElementById("stockholm");
-const goteborg = document.getElementById("goteborg");
-const otherCity = document.getElementById("other");
 
-stockholm.addEventListener("click", () => {
-  window.location = "main.html";
-}
+const check = document.querySelector("check")
+const innerWrapper = document.querySelector("inner-wrapper")
+
+check.addEventListener("click", () => {
+  innerWrapper.className="hello"
+})
