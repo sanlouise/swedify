@@ -21,9 +21,17 @@
         <div class="middle-page z-depth-4">
           <div class="input">
             <p id="info">Translate the following sentence:</p>
-            <p>{{A sentence here}}</p>
-            <input type="text" name="lastname">
-            <div class="check">Check</div>
+            <p>
+              {{#sentences}}
+                {{.}}
+               {{/sentences}}
+            </p>
+
+            <form action="/attempt/{{id}}" method="post">
+              <input type="text" name="sentenceTranslation" placeholder="Write your translation here" />
+              <button id="complete-btn" type="submit">Complete Task</button>
+            </form>
+
           </div>
         </div>
       </div>
